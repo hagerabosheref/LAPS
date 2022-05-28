@@ -1,0 +1,53 @@
+.contactus-container{
+    margin: 4rem 0;
+}
+.contactus-container-col1 h4{
+    font-size: 2.1875rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+.contactus-container-col1 input{
+    display: block;
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    background-color: #ebebebeb;
+    color:#000000;
+    font-size: 1.1rem;
+    width: 60%;
+    padding-left: 1rem ;
+    margin-bottom: 1rem;
+}
+.contactus-container-col1 textarea{
+    display: block;
+    border: none;
+    outline: none;
+    height: 4rem;
+    background-color: #ebebebeb;
+    color:#000000;
+    font-size: 1.1rem;
+    width: 60%;
+    padding-left: 1rem ;
+    margin-bottom: 1rem;
+}
+.contactus-container-col1 .contactus-container-col1-btn{
+    height: 3rem;
+    width: 15rem;
+    background-color: #810000;
+    color:#ffffff;
+    font-size: 1.2rem;
+    margin:1.5rem 0;
+}
+.contactus-container-col2{
+    margin: 4rem 0;
+}
+.contactus-container-col2 h5{
+    text-transform: capitalize; 
+}
+.contactus-container-col2 h5 i{
+    color: #810000;
+}
+.contactus-container-col2 p{
+    margin-left: 2.5rem;
+}

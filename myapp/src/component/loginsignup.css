@@ -1,0 +1,55 @@
+.outer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 20px;
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #55c4dd);  
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+}
+  
+.inner {
+    width: 460px;
+    margin:auto  ;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 25px 55px 40px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+}
+  
+.form-group .form-control{
+    margin: 5px 0 10px 0 ;
+    border: 1px solid #ced4da;
+}
+  
+.outer .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+  }
+  
+.outer h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+}  
+  
+.btn-colers{
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #55c4dd);
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important;
+} 
+  
+  .btn-group-lg>.btn, .btn-lg {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.custom-control-label {
+    font-weight: 400;
+    margin: 10px 5px;
+}

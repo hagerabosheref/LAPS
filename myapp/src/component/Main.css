@@ -1,0 +1,76 @@
+.main-container{
+    font-family: 'Montserrat', sans-serif;
+   background-size: cover;
+   width: 100% ;
+   height: 100%;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+}
+.image::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+.w-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.Caption{
+  position: absolute;
+  width: 60%;
+  height: 30%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.Caption h3{
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color:#810000;
+    opacity: 0;
+  
+}
+.Caption p{
+    font-size: 1rem;
+    color: #ffffff;
+    opacity: 0;
+}
+.carousel-item.active .carousel-caption h3{
+    animation: fadeInLeft 2000ms ease forwards;
+}
+.carousel-item.active .carousel-caption p{
+    animation: fadeInRight 2000ms ease forwards;
+}
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-30PX);
+    }100%{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(30PX);
+    }100%{
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+.sr-only{
+    visibility: hidden;
+}
+

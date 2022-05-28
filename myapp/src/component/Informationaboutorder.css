@@ -1,0 +1,24 @@
+.container-information{
+    margin-top: 4rem;
+
+}
+.content-information{
+    border: 1px solid #ebebeb;
+    border-radius: 0.5rem;
+    color: #000000;
+}
+.content-information i{
+    font-size: 2rem;
+    padding: 1.5rem;
+    color: #810000;
+}
+.content-information h6{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.content-information p{
+    font-size: 1rem;
+}
+.content-information-cols{
+    border-right: 1px solid #ebebeb;
+}
